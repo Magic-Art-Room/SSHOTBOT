@@ -22,20 +22,14 @@ async def start(c, m, cb=False):
         print(e)
 
     BUTTONS = [[
-        InlineKeyboardButton("♂️ Support", url=f"https://t.me/TeleRoid14"),
-        InlineKeyboardButton("🔔 Channel", url="https://t.me/TeleRoidGroup")
+        InlineKeyboardButton("How to Use me ❓", callback_data="help")
         ],[
-        InlineKeyboardButton("🛠 Settings", callback_data="set+settings")
-        ],[
-        InlineKeyboardButton("♻ Help", callback_data="help"),
-        InlineKeyboardButton("👤 About", callback_data="about")
-        ],[
-        InlineKeyboardButton("🔐 Close", callback_data="close")
+        InlineKeyboardButton("Updates", url="https://t.me/ARKBotz")
     ]]
 
-    TEXT = f"👋 Hai! {m.from_user.mention},\n\nI'm Screenshot Generator Bot. I can provide screenshots, sample video from "
+    TEXT = f"👋 Hey {m.from_user.mention},\n\nI'm Screenshot as well as Sample Generator Bot. I can provide screenshots, sample video from "
     TEXT += "your medias and also can trim. For more details check /help.\n\n"
-    TEXT += f"**Maintained By:** @TheTeleRoid"
+    TEXT += f"**Maintained By:** @ARKBotz"
 
     if cb:
         try:
