@@ -14,7 +14,12 @@ See /settings to configure bot's behavior.
 Use /set_watermark to set custom watermarks to your screenshots.
 
 **Bot Managed By @ARKBotz**
+
+{admin_notification}
 """
+ADMIN_NOTIFICATION_TEXT = (
+    "Since you are one of the admins, you can check /admin to view the admin commands."
+)
 
 @ScreenShotBot.on_message(filters.private & filters.command("help"))
 async def help_(c, m):
