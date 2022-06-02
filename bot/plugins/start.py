@@ -29,7 +29,6 @@ async def start(c, m, cb=False):
 
     TEXT = f"👋 Hey {m.from_user.mention},\n\nI'm Screenshot as well as Sample Generator Bot. I can provide screenshots, sample video from "
     TEXT += "your medias and also can trim. For more details check /help.\n\n"
-    TEXT += f"**Maintained By:** @ARKBotz"
 
     if cb:
         try:
