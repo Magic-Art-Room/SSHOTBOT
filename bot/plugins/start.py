@@ -13,7 +13,7 @@ async def start(c, m, cb=False):
         return
     owner_id = Config.AUTH_USERS[0]
     username = 'TheTeleRoid'
-    mention = '[Pʀᴇᴅ∆ᴛᴏʀ](https://t.me/MoviesFlixers_dL)'
+    mention = '[Pʀᴇᴅ∆ᴛᴏʀ](https://t.me/ArkBotz)'
     try:
         owner = await c.get_users(owner_id)
         username = owner.username if owner.username else 'PredatorHackerzZ'
