@@ -22,7 +22,6 @@ ADMIN_NOTIFICATION_TEXT = (
 )
 
 
-
 @ScreenShotBot.on_message(filters.private & filters.command("help"))
 async def help_(c, m):
 
