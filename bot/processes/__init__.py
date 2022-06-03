@@ -1,9 +1,7 @@
 from bot.utils import ProcessTypes
 from .sample import SampleVideoProcess
-from .manual_screenshot import ManualScreenshotsProcess
 from .trim import TrimVideoProcess
 from .screenshot import ScreenshotsProcess
-from .mediainfo import MediaInfoProcess
 
 
 class ProcessFactory:
