@@ -5,6 +5,11 @@ from bot.screenshotbot import ScreenShotBot
 from bot.config import Config
 
 
+BUTTONS = [[
+    InlineKeyboardButton('Hᴏᴍᴇ', callback_data='home'),
+    InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="about")
+]]
+
 HELP_TEXT = """
 **Usage Instructions**
 
