@@ -22,7 +22,8 @@ async def start(c, m, cb=False):
         print(e)
 
     BUTTONS = [[
-        InlineKeyboardButton("How to Use me ❓", callback_data="help")
+        InlineKeyboardButton("Hᴇʟᴘ", callback_data="help"),
+        InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="about")
         ],[
         InlineKeyboardButton("Updates", url="https://t.me/ARKBotz")
     ]]
