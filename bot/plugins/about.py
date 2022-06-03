@@ -22,7 +22,7 @@ ABOUT_TEXT = """
 │
 ├<b>㊙ Language: <a href='https://www.python.org'>Python 3.9.4</a></b>
 │
-├<b>👨‍💻 Developer : <a href='https://t.me/settings'>All Contributors</a></b>
+├<b>👨‍💻 Developer : <a href='tg://settings'>Me and All Contributors</a></b>
 │
 ├<b>📢 Channel : <a href='https://t.me/ARKBotz'>ArkBotz</a></b>
 │
